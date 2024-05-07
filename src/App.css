@@ -1,0 +1,32 @@
+
+h1 {
+  color: white;
+}
+.team-member {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.team-member:hover {
+  transform: scale(1.05);
+}
+.card-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+.card-img-top {
+  max-width: 360px;
+  max-height: 320px;
+}
+.card-body {
+  text-align: center;
+  background-color: rgb(13 148 136);
+}
+.card-title {
+  color: white;
+}
+.card-text {
+  font-size: 0.9rem;
+  color: white;
+}
